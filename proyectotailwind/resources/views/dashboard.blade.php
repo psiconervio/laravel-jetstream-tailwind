@@ -11,7 +11,7 @@
                 <x-welcome />
                 <livewire:hello-world/>
 
-                <a wire::navigate href="/Counter">Go to Counter</a><br>
+                <a wire::navigate href="/Counter">Go to Counterasdasda</a><br>
                 <a wire::navigate href="/NuevaPagina">Nueva Pagina</a><br>
                 <a wire::navigate href="/Dashboardpropio">dashboard</a><br>
             </div>
