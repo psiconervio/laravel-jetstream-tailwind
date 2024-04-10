@@ -14,6 +14,10 @@
                 <a wire::navigate href="/Counter">Go to Counterasdasda</a><br>
                 <a wire::navigate href="/NuevaPagina">Nueva Pagina</a><br>
                 <a wire::navigate href="/Dashboardpropio">dashboard</a><br>
+
+                <br>
+                <br>
+                <a wire::navigate href="/DashboardEstacion">estacion</a><br>
             </div>
         </div>
     </div>

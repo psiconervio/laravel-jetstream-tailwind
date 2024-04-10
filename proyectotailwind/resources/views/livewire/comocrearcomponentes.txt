@@ -1,0 +1,2 @@
+componentes de pagina completa
+routes/web.php nueva ruta al componente
