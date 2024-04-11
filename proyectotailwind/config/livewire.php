@@ -10,6 +10,7 @@ return [
     | This value sets the root class namespace for Livewire component classes in
     | your application. This value will change where component auto-discovery
     | finds components. It's also referenced by the file creation commands.
+    
     |
     */
 
@@ -23,7 +24,6 @@ return [
     | This value is used to specify where Livewire component Blade templates are
     | stored when running file creation commands like `artisan make:livewire`.
     | It is also used if you choose to omit a component's render() method.
-    |
     */
 
     'view_path' => resource_path('views/livewire'),
@@ -35,7 +35,10 @@ return [
     | The view that will be used as the layout when rendering a single component
     | as an entire page via `Route::get('/post/create', CreatePost::class);`.
     | In this case, the view returned by CreatePost will render into $slot.
-    |
+
+    Se cambio de 'layout' => 'components.layouts.app', a lo que esta ahora para que se aplique la plantilla
+    |se especifica la plantilla a la cual se va a utilizar los estilos de todas las paginas y componentes
+
     */
 
     'layout' => 'layouts.app',
