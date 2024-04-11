@@ -2,6 +2,7 @@
 
 use App\Livewire\DashboardEstacion;
 use Illuminate\Support\Facades\Route;
+use App\Livewire\CardEsp32;
 
 Route::get('/', function () {
     return view('welcome');
@@ -23,4 +24,5 @@ Route::middleware([
     //llamada a la route 
     Route::get('/Counter', \App\Livewire\Counter::class)->name('Counter');
     Route::get('/NuevaPagina', \App\Livewire\NuevaPagina::class)->name('NuevaPagina');
+    Route::get('/CardEsp32', \App\Livewire\CardEsp32::class)->name('CardEsp32');
 });
